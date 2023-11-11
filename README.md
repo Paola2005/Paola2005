@@ -60,14 +60,8 @@
 
 ###
 
-<h2 align="center">GitHub Stats:</h2>
-<div>
-  <h3 align="center">Contributions in the last year </h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Paola2005/Paola2005/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Paola2005/Paola2005/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Paola2005/Paola2005/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/Paola2005/Paola2005/output/snake.svg" alt="Snake animation" />
 
 ###
