@@ -1,8 +1,8 @@
 name: Generate snake animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
@@ -18,17 +18,29 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout código
+        uses: actions/checkout@v2
+
+      - name: Generar snake.svg
+        uses: Platane/snk@v2
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+          snake_color: "#68B7E3"
+          background_color: "#282C34"
+          output_file: dist/snake.svg
+          user_id: Paola2005
 
+      - name: Agregar snake.svg a la rama de salida
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dist/snake.svg
+          git commit -m "Actualizar snake.svg"
+          git push
 
-      - name: push snake.svg to the output branch
+      - name: Publicar snake.svg en GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: gh-pages
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
