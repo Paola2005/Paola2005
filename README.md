@@ -59,3 +59,10 @@
 </div>
 
 ###
+<<<<<<< HEAD
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/Paola2005/Paola2005/output/snake.svg" alt="Snake animation" />
+
+###
