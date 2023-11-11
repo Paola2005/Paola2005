@@ -59,7 +59,6 @@
 </div>
 
 ###
-<<<<<<< HEAD
 
 <br clear="both">
 
