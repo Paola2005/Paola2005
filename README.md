@@ -59,20 +59,3 @@
 </div>
 
 ###
-<<<<<<< HEAD
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Paola2005/Paola2005/output/snake.svg" alt="Snake animation" />
-=======
-[![Generate snake animation](https://github.com/Paola2005/Paola2005/actions/workflows/snake.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/Paola2005/Paola2005/actions/workflows/snake.yml)
->>>>>>> 78119bec96817d4b6d26a6b9600c73ba049d5d75
-
-
-
-###
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 78119bec96817d4b6d26a6b9600c73ba049d5d75
