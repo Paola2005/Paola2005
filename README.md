@@ -1,4 +1,4 @@
-<h2 align="left">👋 ¡Hola! Soy Paola Velasco, una apasionada programadora .NET. En mi GitHub, encontrarás proyectos que reflejan mi dedicación al mundo del desarrollo. ¡Lista para colaborar en desafíos emocionantes y construir soluciones innovadoras! 🚀</h2>
+<h2 align="left">👋 Hi! I'm Paola Velasco, a dedicated developer ready for exciting challenges and innovative solutions! 🚀</h2>
 
 ###
 
